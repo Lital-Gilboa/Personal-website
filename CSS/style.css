@@ -1,0 +1,23 @@
+        h1 {
+            text-align: left;
+        }
+        
+        p {
+            text-align: left;
+        }
+        
+        div {
+            text-align: left;
+        }
+        
+        .header {
+            padding: 60px;
+            background: #1abc9c;
+            color: white;
+            font-size: 30px;
+        }
+        /* Solid border */
+        
+        hr.solid {
+            border-top: 3px solid #bbb;
+        }
