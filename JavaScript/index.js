@@ -17,3 +17,20 @@ function changeMode() {
     }
 
 }
+
+function setEmail() {
+    let subject = document.getElementById("subject").value;
+    let message = document.getElementById("message").value;
+    if (subject === "" || message === "") {
+        alert("You have to fill the fields Subject and Content in order to send an email");
+        document.getElementById("mail").setAttribute("href", "#Contact");
+        return false;
+    } else {
+        document.getElementById("mail").setAttribute("href", "mailto:litalgilboa6@gmail.com?subject=" + subject + "&body=" + message);
+        return true;
+    }
+
+
+
+
+}

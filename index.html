@@ -135,16 +135,18 @@
         <div class="container-lg" id="Contact">
             <h1>Contact</h1>
             <p>
-                <ul>
-                    <li>Phone: 050-9043033</li>
-                    <li>Email: litalgilboa6@gmail.com</li>
-                </ul>
-                <a href="mailto:litalgilboa6@gmail.com" class="btn btn-info">Contact me via mail</a>
+                <br>
+                <label for="exampleFormControlInput1" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" placeholder="Subject of the message">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>Content</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Content of the message"></textarea>
+                <br>
+                <a href="#Contact" class="btn btn-info" id="mail" onclick="setEmail()">Send</a>
             </p>
         </div>
 
-    </div>
 
+    </div>
 
     <div class="hero-image-bye" id="Bye">
         <div class="hero-text-bye">

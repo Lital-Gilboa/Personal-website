@@ -2,11 +2,19 @@
             text-align: left;
         }
         
+        h2 {
+            text-align: left;
+        }
+        
         p {
             text-align: left;
         }
         
         div {
+            text-align: left;
+        }
+        
+        form {
             text-align: left;
         }
         
